@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naa Bubbu Baby</title>
+  <link rel="stylesheet" href="style.css?v=16">
+</head>
+<body>
+  <div id="start-screen" class="start-screen">
+    <div class="start-content">
+      <h1>Naa Bubbu Baby</h1>
+      <p>Happy Birthday</p>
+      <button id="start-btn">Press to start</button>
+    </div>
+  </div>
+
+  <div id="slideshow" class="slideshow hidden">
+    <div id="background-layer" class="background-layer"></div>
+    <div id="collage" class="collage"></div>
+    <div class="vignette"></div>
+    <div id="text-container" class="text-container"></div>
+    <div class="progress-bar"><div id="progress" class="progress"></div></div>
+    <div class="controls">
+      <button id="prev-btn" aria-label="Previous">&#8249;</button>
+      <button id="next-btn" aria-label="Next">&#8250;</button>
+    </div>
+    <div id="easter-eggs" class="easter-eggs"></div>
+    <button id="secret-btn" class="secret-btn" aria-label="Secret">&#9829;</button>
+    <div id="secret-popup" class="secret-popup hidden">
+      <div class="secret-card">
+        <p id="secret-text"></p>
+        <button id="close-secret">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <audio id="bg-music" src="audio/until_i_found_you_draft.mp3"></audio>
+
+  <script src="content.js?v=16"></script>
+  <script src="script.js?v=16"></script>
+</body>
+</html>
